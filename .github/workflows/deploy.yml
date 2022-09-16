@@ -1,5 +1,9 @@
 name: deploy website
 on: 
+  workflow_run:
+    workflows: ["sonarcloud build"]
+    types:
+      - completed
   push:
     branches:
       - master
