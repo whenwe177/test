@@ -6,6 +6,7 @@ export default function Home() {
   console.log("Test");
   console.log("Test");
   console.log("Test");
+  console.log("Test");
   return (
     <div className={styles.container}>
       <Head>
