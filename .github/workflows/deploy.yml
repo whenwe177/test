@@ -1,4 +1,8 @@
 name: deploy website
+on:
+  push:
+    branches:
+      - master
 jobs: 
   sonarcloud:
     name: SonarCloud
